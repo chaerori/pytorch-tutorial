@@ -3,8 +3,6 @@ sys.path.append(os.pardir)
 from dataset.mnist import load_mnist
 
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
 from collections import OrderedDict
 import random
 
